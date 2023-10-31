@@ -13,6 +13,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/login', function () {
+    return view('login');
 });
+
+
+// LANDING
+Route::get('/', function () {
+    return view('landing.indexlanding');
+});
+Route::get('/shop', function () {
+    return view('landing.shop');
+});
+Route::get('/about', function () {
+    return view('landing.about');
+});
+Route::get('/features', function () {
+    return view('landing.features');
+});
+Route::get('/contact', function () {
+    return view('landing.contact');
+});
+Route::get('/shopping-cart', function () {
+    return view('landing.shopping-cart');
+});
+
+// =========================================================================
