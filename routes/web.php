@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\LandingController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,15 +16,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function () {
-    return view('login');
-});
 
+Route::controller(AuthController::class)->group( function () {
+    Route::get('login', 'loginView')->name('login');
+    Route::post('loginPost', 'postLogin')->name('loginPost');
+});
 
 // LANDING
-Route::get('/', function () {
-    return view('landing.indexlanding');
+Route::controller(LandingController::class)->group(function () {
+    Route::get('/', 'landingpage')->name('/');
 });
+
 Route::get('/shop', function () {
     return view('landing.shop');
 });
