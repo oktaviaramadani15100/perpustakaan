@@ -3419,6 +3419,7 @@ iframe {border: none;}
 	justify-content: flex-start;
 	-ms-align-items: center;
 	align-items: center;
+	font-size: 15px;
 }
 
 .flex-r-m {

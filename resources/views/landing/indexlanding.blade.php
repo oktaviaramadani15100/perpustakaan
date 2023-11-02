@@ -241,10 +241,6 @@
 						<a href="/shopping-cart" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">
 							View Cart
 						</a>
-
-						<a href="shoping-cart.html" class="flex-c-m stext-101 cl0 size-107 bg3 bor2 hov-btn3 p-lr-15 trans-04 m-b-10">
-							Check Out
-						</a>
 					</div>
 				</div>
 			</div>
@@ -399,7 +395,7 @@
 					<!-- Block2 -->
 					<div class="block2">
 						<div class="block2-pic hov-img0">
-							<img src="assets/img/waffle.png" alt="IMG-PRODUCT">
+							<img src="assets/img/wardah.png" alt="IMG-PRODUCT">
 
 							<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 								Quick View
@@ -919,7 +915,7 @@
 		</span>
 	</div>
 
-	<!-- Modal1 -->
+	<!-- Modal WARDAH -->
 	<div class="wrap-modal1 js-modal1 p-t-60 p-b-20">
 		<div class="overlay-modal1 js-hide-modal1"></div>
 
@@ -937,31 +933,31 @@
 								<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
 
 								<div class="slick3 gallery-lb">
-									<div class="item-slick3" data-thumb="img/waffle.png">
+									<div class="item-slick3" data-thumb="assets/img/wardah.png">
 										<div class="wrap-pic-w pos-relative">
-											<img src="assets/img/waffle.png" alt="IMG-PRODUCT">
+											<img src="assets/img/wardah.png" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="img/waffle.png">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="assets/img/wardah.png">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="img/waffle1.png">
+									<div class="item-slick3" data-thumb="assets/img/wardah.png">
 										<div class="wrap-pic-w pos-relative">
-											<img src="assets/img/waffle1.png" alt="IMG-PRODUCT">
+											<img src="assets/img/wardah.png" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="img/waffle1.png">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="assets/img/wardah.png">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
 									</div>
 
-									<div class="item-slick3" data-thumb="img/waffle2.png">
+									<div class="item-slick3" data-thumb="assets/img/wardah.png">
 										<div class="wrap-pic-w pos-relative">
-											<img src="assets/img/waffle2.png" alt="IMG-PRODUCT">
+											<img src="assets/img/wardah.png" alt="IMG-PRODUCT">
 
-											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="img/waffle2.png">
+											<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="assets/img/wardah.png">
 												<i class="fa fa-expand"></i>
 											</a>
 										</div>
@@ -1009,11 +1005,6 @@
 
 							<!--  -->
 							<div class="flex-w flex-m p-l-100 p-t-40 respon7">
-								<div class="flex-m bor9 p-r-10 m-r-11">
-									<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 js-addwish-detail tooltip100" data-tooltip="Add to Wishlist">
-										<i class="zmdi zmdi-favorite"></i>
-									</a>
-								</div>
 
 								<a href="#" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2 m-r-8 tooltip100" data-tooltip="Facebook">
 									<i class="fa fa-facebook"></i>
