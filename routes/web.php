@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/signup', function () {
+    return view('register');
+});
 
 Route::controller(AuthController::class)->group( function () {
     Route::get('login', 'loginView')->name('login');
