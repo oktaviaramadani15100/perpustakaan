@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -28,6 +29,11 @@ Route::controller(AuthController::class)->group( function () {
 // LANDING
 Route::controller(LandingController::class)->group(function () {
     Route::get('/', 'landingpage')->name('/');
+});
+
+Route::controller(DashboardController::class)->group(function () {
+    Route::get('dashboard-admin', 'dashboard')->name('dashboard-admin');
+    Route::get('tambah-barang', 'tambahBarang')->name('tambah-barang');
 });
 
 Route::get('/shop', function () {

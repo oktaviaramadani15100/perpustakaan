@@ -18,7 +18,7 @@ class AuthController extends Controller
 
         //ini jika validasi yang benar
         if (Auth::attempt($credentials)) {
-            return redirect('/'); 
+            return redirect('/tambah-barang'); 
         }
 
         //ini jika validasi salah 
