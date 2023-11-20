@@ -404,34 +404,42 @@
                 </div>
             </div>
 
-            <div class="row isotope-grid">
-                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
-                    <!-- Block2 -->
-                    <div class="block2">
-                        <div class="block2-pic hov-img0">
-                            <img src="assets/img/waffle.png" alt="IMG-PRODUCT">
+            <section class="section discover" aria-labelledby="discover-label">
+                <div class="row isotope-grid">
+                    <ul id="data-list">
+                        @foreach ($produk as $row)
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                            <!-- Block2 -->
+                            <li>
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="{{ asset('assets/img/'.$row->foto) }}" alt="IMG-PRODUCT">
 
-                            <a href="#"
-                                class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-                                Quick View
-                            </a>
-                        </div>
+                                        <a href="#"
+                                            class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+                                            Quick View
+                                        </a>
+                                    </div>
 
-                        <div class="block2-txt flex-w flex-t p-t-14">
-                            <div class="block2-txt-child1 flex-col-l ">
-                                <a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                                    Waffle
-                                </a>
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l ">
+                                            <a href="product-detail.html"
+                                                class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                                Waffle
+                                            </a>
+                                            <span class="stext-105 cl3">
+                                                Rp. 2.000
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </div> 
+                        @endforeach
+                    </ul>
 
-                                <span class="stext-105 cl3">
-                                    Rp. 2.000
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                    {{-- <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
                     <!-- Block2 -->
                     <div class="block2">
                         <div class="block2-pic hov-img0">
@@ -819,8 +827,10 @@
                             </div>
                         </div>
                     </div>
+                </div> --}}
                 </div>
-            </div>
+            </section>
+
         </div>
     </section>
 
@@ -1028,7 +1038,6 @@
                                                 <i class="fs-16 zmdi zmdi-plus"></i>
                                             </div>
                                         </div>
-
 
                                         <button
                                             class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">

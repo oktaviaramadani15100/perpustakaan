@@ -34,6 +34,7 @@ Route::controller(LandingController::class)->group(function () {
 Route::controller(DashboardController::class)->group(function () {
     Route::get('dashboard-admin', 'dashboard')->name('dashboard-admin');
     Route::get('tambah-barang', 'tambahBarang')->name('tambah-barang');
+    Route::post('store-tambah-admin', 'store')->name('store-tambah-admin');
 });
 
 Route::get('/shop', function () {
